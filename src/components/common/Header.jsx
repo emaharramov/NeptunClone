@@ -36,7 +36,7 @@ function Header() {
   useEffect(() => {
     fetch("https://api.mirafgan.me/neptun/catalog")
       .then((res) => res.json())
-      .then((res) => setData(res.menu));
+      .then((res) => setData(res));
   }, []);
   useEffect(() => {
     function handleScroll() {
