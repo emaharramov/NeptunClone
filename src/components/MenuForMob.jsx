@@ -47,7 +47,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
             className={`flex justify-between items-center w-full cursor-pointer`}
             onClick={toggleHaqqimizda}
            >
-            <Link to="/" className="flex items-center yazi">
+            <Link to="/haqqimizda" className="flex items-center yazi">
               Haqqımızda
             </Link>
 
@@ -71,7 +71,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
         >
           <div>
             <Link
-              to="/"
+              to="/siyasetimiz"
               className="subMenu py-[10px]  text-[#5a5a5a] inline-block"
             >
               Siyasətimiz
@@ -79,7 +79,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/yenilikler"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Yeniliklər
@@ -95,7 +95,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
             className={`flex justify-between items-center w-full cursor-pointer`}
             onClick={toggleAksiyalar}
           >
-            <Link to="/" className="flex items-center yazi">
+            <Link to="/aksiyalar" className="flex items-center yazi">
               Aksiyalar
             </Link>
 
@@ -119,7 +119,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
         >
           <div>
             <Link
-              to="/"
+              to="/aksiyalar"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Kampaniyalar
@@ -127,7 +127,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/neptunbonuskart"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Neptun Bonus Kart
@@ -135,7 +135,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/catalog"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Elektron Kataloq
@@ -154,7 +154,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
             className={`flex justify-between items-center w-full cursor-pointer`}
             onClick={toggleMarket}
           >
-            <Link to="/" className="flex items-center yazi">
+            <Link to="/supermarketler" className="flex items-center yazi">
               Supermarketlər
             </Link>
 
@@ -178,7 +178,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
         >
           <div>
             <Link
-              to="/"
+              to="/supermarketler"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Mağazalarımız
@@ -186,7 +186,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/reviews"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               İrad Və Təkliflər
@@ -194,7 +194,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/alicilarin-nezerine"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Alıcıların Nəzərinə
@@ -202,7 +202,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/partners"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Partnyorluq
@@ -210,7 +210,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/terefdaslar"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Tərəfdaşlar
@@ -218,7 +218,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/reklam"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Supermarketdə Reklam
@@ -237,7 +237,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
             className={`flex justify-between items-center w-full cursor-pointer`}
             onClick={karyer}
           >
-            <Link to="/" className="flex items-center yazi">
+            <Link to="/karyera" className="flex items-center yazi">
               Karyera
             </Link>
 
@@ -261,7 +261,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
         >
           <div>
             <Link
-              to="/"
+              to="/karyera"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               İşə qəbul proseduru
@@ -269,7 +269,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/karyera"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               Vakansiyalar
@@ -277,7 +277,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
           </div>
           <div>
             <Link
-              to="/"
+              to="/karyera"
               className="subMenu py-[10px] text-[#5a5a5a] inline-block"
             >
               CV Yerləşdirin
@@ -287,7 +287,7 @@ function MenuForMob({ showMenuForMob, setshowMenuForMob }) {
         <li
           className="relative border-b-2 border-[#ddd]"
         >
-        <Link to="/" className="flex items-center yazi">
+        <Link to="/contact" className="flex items-center yazi">
               Əlaqə
           </Link>
         </li>

@@ -41,6 +41,7 @@ function App() {
           <Route path="/supermarketler" element={<Supermarket />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>

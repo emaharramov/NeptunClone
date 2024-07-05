@@ -9,12 +9,8 @@ import Kategory from "../Kategory";
 import { FaLock } from "react-icons/fa6";
 import { GrFavorite } from "react-icons/gr";
 import { RiExchange2Line } from "react-icons/ri";
-import { PiShoppingCartLight } from "react-icons/pi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import MenuForMob from "../MenuForMob";
-import SebetMehsul from "../ui/SebetMehsul";
-import { useSelector } from "react-redux";
-import { sebetQutusuState } from "../../data/slices/Sebet";
 import SebetBox from "../ui/SebetBox";
 
 function Header() {
@@ -82,24 +78,6 @@ function Header() {
       </div>
       <div className="md:container md:mx-auto">
         <div className="flex items-center  md:justify-between py-7">
-          {/* <div className="grid grid-cols-2 items-center">
-            <div className="w-[40%] md:w-[264px] me-3">
-              <Link to={"/"}>
-                <img src={Logo} alt="logo" className="w-full" />
-              </Link>
-            </div>
-            <div className="border-[1px] border-orange flex items-center rounded-3xl">
-              <IoSearch className="ps-2 text-xl md:text-3xl text-orange" />
-              <input
-                type="text"
-                className="py-2 w-[300px] text-[12px] px-2 placeholder:fonts-[Noto] outline-none"
-                placeholder="Məhsulu axtarin"
-              />
-              <button className="bg-orange hover:bg-[#e3732a] text-[13.6px] px-2 w-[68px] h-[44px] rounded-3xl text-white">
-                Axtar
-              </button>
-            </div>
-          </div> */}
            <div className="w-full md:w-[auto] grid grid-cols-5 items-center">
             <div className="  w-full col-span-2  md:w-[264px] me-3">
               <Link to={"/"}>
@@ -272,16 +250,16 @@ function Header() {
                       Hesabım <IoMdArrowDropdown className="text-base" />
                     </Link>
                     <div className="absolute hidden top-11  group-hover:block bg-[#fff] z-10 w-[110px] shadow-lg px-2">
-                      <Link to="/" className="subMenu pt-3 py-1 text-[#5a5a5a] inline-block">
+                      <Link to="/login" className="subMenu pt-3 py-1 text-[#5a5a5a] inline-block">
                         Sifariş Tarixçəsi
                       </Link>
-                      <Link to="/" className="subMenu py-1 text-[#5a5a5a] inline-block">
+                      <Link to="/login" className="subMenu py-1 text-[#5a5a5a] inline-block">
                         Əməliyyatlar
                       </Link>
-                      <Link to="/" className="subMenu py-1 text-[#5a5a5a] inline-block">
+                      <Link to="/login" className="subMenu py-1 text-[#5a5a5a] inline-block">
                         Yükləmələr
                       </Link>
-                      <Link to="/" className="subMenu py-2 text-[#5a5a5a] inline-block">
+                      <Link to="/login" className="subMenu py-2 text-[#5a5a5a] inline-block">
                         Sifarişi rəsmiləşdir
                       </Link>
                     </div>

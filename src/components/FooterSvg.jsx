@@ -2,7 +2,7 @@ import React from "react";
 
 function FooterSvg() {
   return (
-    <div className="absolute footerLogo transition-all z-0 top-[110px] right-[-320px] md:right-[-200px]">
+    <div className="hidden lg:initial absolute footerLogo transition-all z-0 top-[110px] right-[-320px] md:right-[-200px]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="442.03"

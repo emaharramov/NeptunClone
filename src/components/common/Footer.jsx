@@ -26,7 +26,7 @@ function Footer() {
   return (
     <>
     <div className="bg-orange overflow-hidden relative footer font-[Noto] text-white">
-    <FooterSvg />
+    <FooterSvg  />
       <div className="px-[30px]">
         <div className="md:w-[80%] footerSec flex justify-center md:justify-start">
           <div className="flex flex-wrap pr-6 items-center mr-[27px]">
